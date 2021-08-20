@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+
+  .top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-nav {
+    ul {
+      list-style-type: none;
+      padding: unset;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

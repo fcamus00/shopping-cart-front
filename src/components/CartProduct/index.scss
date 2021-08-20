@@ -1,0 +1,19 @@
+.cart-product {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #9e9d9d;
+  border-radius: 10px;
+  padding: 1em;
+
+  .product-img {
+    padding: 1em;
+  }
+
+  .product-info {
+    width: 30em;
+  }
+
+  .product-price {
+    width: 6em;
+  }
+}

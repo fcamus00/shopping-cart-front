@@ -1,0 +1,21 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+
+  .cart-total {
+    display: flex;
+    flex-direction: column;
+
+    .subtotal {
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
